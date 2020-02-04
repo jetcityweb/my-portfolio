@@ -1,10 +1,75 @@
 
+/* GRID */
+
+.full-width {
+    width: 1400px;
+    margin: 0;
+
+}
+
+.half-width {
+    width: 700px;
+
+}
+
 /* BASE STYLES */
 body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Source Code Pro', monospace;
     color: #1f202b;
+    }
     
+/* NAV */
+
+nav {
+    background-color: #1f202b;
+    width: 1400px;
+    height: 75px;
+    margin: 0;
 }
 
+nav h1 {
+    color: #ffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    padding-left: 95px;
+    position: absolute;
+    text-align: left;
+
+}
+
+nav ul li {
+    color: #ffff;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: lowercase;        
+}
+
+#nav-links {
+    float: right;
+}
+    
+/* HEADER */
+
+header {
+    background-image: url('../img/hero-background.png');
+    background-size: cover;
+    height: 725px;
+    width: 1400px;
+    
+
+}
+header h2 {
+    color: #ffff;
+    font-family: 'Source Code Pro' , sans-serif;
+    font-weight: semi-bold;
+    font-size: 72px;
+    position: absolute;
+    top: 370px;
+    padding-left: 95px;
+
+}
 
