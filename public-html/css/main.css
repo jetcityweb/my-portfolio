@@ -28,28 +28,40 @@ nav {
     margin: 0;
 }
 
-nav h1 {
+h1 {
     color: #ffff;
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
+    font-weight: normal;
     padding-left: 95px;
     position: absolute;
     text-align: left;
+    
+}
 
+nav ul {
+    padding-left: 120px;
 }
 
 nav ul li {
-    color: #ffff;
     display: inline-block;
+
+}
+
+nav ul li a {
+    
+    color: #ffff;
     font-family: 'Montserrat', sans-serif;
-    font-weight: normal;
     font-size: 30px;
+    padding-left: 45px;
     text-decoration: none;
-    text-transform: lowercase;        
+
 }
 
 #nav-links {
+    background-color: #1f202b;
     float: right;
+    text-align: center;
 }
     
 /* HEADER */
@@ -60,9 +72,8 @@ header {
     height: 725px;
     width: 1400px;
     
-
 }
-header h2 {
+h2 {
     color: #ffff;
     font-family: 'Source Code Pro' , sans-serif;
     font-weight: semi-bold;
@@ -72,4 +83,9 @@ header h2 {
     padding-left: 95px;
 
 }
+
+h2 span {
+        color: #fa0075;
+}    
+
 
