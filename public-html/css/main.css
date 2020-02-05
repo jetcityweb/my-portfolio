@@ -3,15 +3,25 @@
 
 .full-width {
     width: 1400px;
-    margin: 0;
+    margin: auto;
     overflow: auto;
 
 }
 
 .half-width {
     width: 700px;
+    float: left;
 
 }
+
+header {
+    width: 1400px;
+    margin: auto;
+}
+/* #hero-image {
+    width: inherit;
+    margin: auto;
+} */
 
 /* BASE STYLES */
 body {
@@ -45,7 +55,7 @@ nav {
     background-color: #1f202b;
     width: 1400px;
     height: 75px;
-    margin: 0;
+    margin: auto;
 }
 
 h1 {
@@ -117,19 +127,7 @@ h3 {
     font-family: 'Source Code Pro', monospace;
     font-size: 36pt;
     font-weight: 400;
+    padding: 90px 0 90px 0;
     text-align: center;
     text-decoration: none;
-
-}
-
-#rogue-pickings-image {
-    float: left;
-}
-
-#jubilee-austen-image {
-    float: right;
-}
-
-#holstee-image {
-    float: left;
 }
