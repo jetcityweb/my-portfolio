@@ -1,44 +1,122 @@
-
-/* GRID */
+    /* GRID */
 
 .full-width {
-    width: 1400px;
-    margin: auto;
+    width   : 1400px;
+    margin  : auto;
     overflow: auto;
-
 }
 
 .half-width {
     width: 700px;
     float: left;
-
 }
 
-header {
-    width: 1400px;
-    margin: auto;
+.third-width {
+    width: 466px;
+    float: left;
 }
-/* #hero-image {
-    width: inherit;
-    margin: auto;
-} */
 
-/* BASE STYLES */
+    /* BASE STYLES */
+
 body {
-    background-color: #1f202b; 
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Source Code Pro', monospace;
-    color: #ffff;
-    }
-    
+    background-color: #1f202b;
+    font-family     : 'Montserrat', sans-serif;
+    font-family     : 'Source Code Pro', monospace;
+    color           : #ffff;
+}
+
 a:link {
     text-decoration: none;
-    
+}
+
+h1 {
+    color       : #ffff;
+    font-family : 'Montserrat', sans-serif;
+    font-size   : 30px;
+    font-weight : normal;
+    padding-left: 95px;
+    position    : absolute;
+    text-align  : left;
+}
+
+h2 {
+    color       : #ffff;
+    font-family : 'Source Code Pro' , sans-serif;
+    font-weight : 400;
+    font-size   : 72px;
+    position    : absolute;
+    top         : 370px;
+    padding-left: 95px;
+}
+
+h3 {
+    color          : #fa0075;
+    font-family    : 'Source Code Pro', monospace;
+    font-size      : 36pt;
+    font-weight    : 400;
+    margin-bottom  : 0;
+    margin-top     : 55px;
+    padding        : 0;
+    position       : relative;
+    text-align     : center;
+    text-decoration: none;
+}
+
+h4 {
+    color        : #ffff;
+    clear        : both;
+    font-family  : 'Montserrat', sans-serif;
+    font-size    : 24px;
+    font-weight  : 600;
+    margin-top   : 0;
+    margin-bottom: 10px;
+}
+
+p {
+    color        : #ffff;
+    font-family  : 'Montserrat', sans-serif;
+    font-size    : 24px;
+    font-weight  : normal;
+    margin-top   : 10px;
+    /* padding-right: 148px; */
+}
+
+    /* NAV SECTION*/
+
+nav {
+    background-color: #1f202b;
+    width           : 1400px;
+    height          : 75px;
+    margin          : auto;
+}
+
+nav ul {
+    padding-left: 120px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color       : #ffff;
+    font-family : 'Montserrat', sans-serif;
+    font-size   : 30px;
+    padding-left: 45px;
+
+    /* LINK HOVER STATES */
+
+}
+
+.nav-links {
+    background-color: #1f202b;
+    float           : right;
+    text-align      : center;
 }
 
 a:visited {
     text-decoration: none;
-    
+    color: inherit;
 }
 
 a:hover {
@@ -48,86 +126,73 @@ a:hover {
 a:active {
     text-decoration: none;
 }
-    
-/* NAV */
 
-nav {
-    background-color: #1f202b;
-    width: 1400px;
-    height: 75px;
-    margin: auto;
-}
-
-h1 {
-    color: #ffff;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-    font-weight: normal;
-    padding-left: 95px;
-    position: absolute;
-    text-align: left;
-    
-}
-
-nav ul {
-    padding-left: 120px;
-}
-
-nav ul li {
-    display: inline-block;
-
-}
-
-nav ul li a {
-    
-    color: #ffff;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-    padding-left: 45px;
-
-
-}
-
-#nav-links {
-    background-color: #1f202b;
-    float: right;
-    text-align: center;
-}
-    
-/* HEADER */
+    /* HEADER SECTION*/
 
 header {
-    background-image: url('../img/hero-background.png');
-    background-size: cover;
-    height: 725px;
-    width: 1400px;
-    
-}
-
-h2 {
-    color: #ffff;
-    font-family: 'Source Code Pro' , sans-serif;
-    font-weight: 400;
-    font-size: 72px;
-    position: absolute;
-    top: 370px;
-    padding-left: 95px;
-
+    height          : 800px;
+    width           : 1400px;
+    background-image: url("../img/hero-background.png");
+    background-size : cover;
+    margin          : auto;
 }
 
 h2 span {
-        color: #fa0075;
-}    
-
-/* PORTFOLIO SECTION */
-
-
-h3 {
     color: #fa0075;
-    font-family: 'Source Code Pro', monospace;
-    font-size: 36pt;
-    font-weight: 400;
-    padding: 90px 0 90px 0;
+}
+
+    /* PORTFOLIO SECTION */
+
+.portfolio .full-width {
+    margin-bottom: 110px;
+}
+
+.portfolio img {
+    border: 1px;
+    border-style: solid;
+    border-color: #b7b7b7;
+    margin: 0 74px;
+    padding: 0;
+}
+
+.portfolio h4 {
+    margin: 0 74px;
+}
+
+
+.portfolio p {
+    margin: 15px 74px;
+}
+
+    /* ABOUT SECTION */
+
+.about .full-width {
+    clear           : both;
+    height          : 550px;
+    background-image: url("../img/about-me.png");
+    background-size : cover;
+    margin-bottom   : 100px;
+}
+
+.about h4 {
+    margin-left: 74px;
+    color: #1f202b;
+}
+
+.about p {
+    padding-left: 74px;
+    padding-right: 74px;
+    color: #1f202b;
+}
+
+    /* FOOTER AND CONTACT SECTION */
+
+.footer .full-width {
+    background-color: #1f202b;
+    height          : 450px;
+    overflow        : hidden;
+}
+
+.footer h4 {
     text-align: center;
-    text-decoration: none;
 }
