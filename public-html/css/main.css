@@ -12,7 +12,7 @@
 }
 
 .third-width {
-    width: 466px;
+    width: 466.66px;
     float: left;
 }
 
@@ -72,13 +72,22 @@ h4 {
     margin-bottom: 10px;
 }
 
+h5 {
+    color       : #ffff;
+    font-family : 'Montserrat', sans-serif;
+    font-size   : 18px;
+    font-weight : normal;
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+}
+
 p {
     color        : #ffff;
     font-family  : 'Montserrat', sans-serif;
     font-size    : 24px;
     font-weight  : normal;
     margin-top   : 10px;
-    /* padding-right: 148px; */
 }
 
     /* NAV SECTION*/
@@ -126,6 +135,8 @@ a:hover {
 a:active {
     text-decoration: none;
 }
+
+
 
     /* HEADER SECTION*/
 
@@ -191,8 +202,29 @@ h2 span {
     background-color: #1f202b;
     height          : 450px;
     overflow        : hidden;
+    position: relative;
+}
+
+.footer h3 {
+    margin-top: 0;
+    margin-bottom: 50px;
 }
 
 .footer h4 {
     text-align: center;
+    margin-bottom: 40px;
+
+} 
+
+.footer p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.footer img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+    
 }
