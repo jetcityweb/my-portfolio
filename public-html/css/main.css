@@ -185,15 +185,33 @@ h2 span {
     margin-bottom   : 100px;
 }
 
+.about h3 {
+    margin-top: 30px;
+}
 .about h4 {
     margin-left: 74px;
     color: #1f202b;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 .about p {
     padding-left: 74px;
     padding-right: 74px;
     color: #1f202b;
+}
+
+.about ul {
+    list-style: circle;
+    margin-left: 60px;
+}
+
+.about ul li {
+    color        : #1f202b;
+    font-family  : 'Montserrat', sans-serif;
+    font-size    : 24px;
+    font-weight  : normal;
+    margin-top   : 10px;
 }
 
     /* FOOTER AND CONTACT SECTION */
@@ -228,3 +246,4 @@ h2 span {
     margin-bottom: 150px;
     
 }
+
