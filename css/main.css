@@ -22,7 +22,7 @@ body {
     background-color: #1f202b;
     font-family     : 'Montserrat', sans-serif;
     font-family     : 'Source Code Pro', monospace;
-    color           : #ffff;
+    color           : #ffffff;
 }
 
 a:link {
@@ -30,7 +30,7 @@ a:link {
 }
 
 h1 {
-    color       : #ffff;
+    color       : #ffffff;
     font-family : 'Montserrat', sans-serif;
     font-size   : 30px;
     font-weight : normal;
@@ -40,7 +40,7 @@ h1 {
 }
 
 h2 {
-    color       : #ffff;
+    color       : #ffffff;
     font-family : 'Source Code Pro' , sans-serif;
     font-weight : 400;
     font-size   : 72px;
@@ -63,7 +63,7 @@ h3 {
 }
 
 h4 {
-    color        : #ffff;
+    color        : #ffffff;
     clear        : both;
     font-family  : 'Montserrat', sans-serif;
     font-size    : 24px;
@@ -73,7 +73,7 @@ h4 {
 }
 
 h5 {
-    color       : #ffff;
+    color       : #ffffff;
     font-family : 'Montserrat', sans-serif;
     font-size   : 18px;
     font-weight : normal;
@@ -83,7 +83,7 @@ h5 {
 }
 
 p {
-    color        : #ffff;
+    color        : #ffffff;
     font-family  : 'Montserrat', sans-serif;
     font-size    : 24px;
     font-weight  : normal;
@@ -108,7 +108,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color       : #ffff;
+    color       : #ffffff;
     font-family : 'Montserrat', sans-serif;
     font-size   : 30px;
     padding-left: 45px;
