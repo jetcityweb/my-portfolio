@@ -152,13 +152,13 @@ h2 span {
     color: #fa0075;
 }
 
-    /* PORTFOLIO SECTION */
+    /* WORK SECTION */
 
-.portfolio .full-width {
+.work .full-width {
     margin-bottom: 110px;
 }
 
-.portfolio img {
+.work img {
     border: 1px;
     border-style: solid;
     border-color: #b7b7b7;
@@ -166,12 +166,12 @@ h2 span {
     padding: 0;
 }
 
-.portfolio h4 {
+.work h4 {
     margin: 0 74px;
 }
 
 
-.portfolio p {
+.work p {
     margin: 15px 74px;
 }
 
@@ -245,5 +245,12 @@ h2 span {
     margin-right: auto;
     margin-bottom: 150px;
     
+}
+
+.footer .footer-work {
+    background-color: #1f202b;
+    height          : 100px;
+    overflow        : hidden;
+    position: relative;
 }
 
