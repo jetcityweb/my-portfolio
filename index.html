@@ -1,103 +1,146 @@
 <!doctype html>
-<html lang="en" dir="ltr">
+<html class="no-js" lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <title>Tim Pfeiffer | Web Developer</title>
+  <head>
+    <meta charset="utf-8">
+    <title>Tim Pfeiffer | Web Developer</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- STYLESHEETS -->
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
 
-        <!-- FONTS -->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Source+Code+Pro:600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
 
-    </head>
+    <meta name="theme-color" content="#fafafa">
 
-    <body>
-        <!-- HEADER AND NAV -->
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Source+Code+Pro:600&display=swap" rel="stylesheet">
 
-        <nav>
-            <div class="full-width">
-                <h1>&lt;tim pfeiffer | web developer&gt;</h1>
+    <!-- Fontawesome -->
 
-                <ul class="nav-links">
-                    <li><a href="index.html">home</a></li>
-                    <li><a href="work/index.html">my work</a></li>
-                    <li><a href="#about">about</a></li>
-                    <li><a href="#contact">contact</a></li>
-                </ul>
-            </div>
+    <script src="https://kit.fontawesome.com/6c6db2b189.js" crossorigin="anonymous"></script>
+
+  </head>
+
+  <body class="site">
+    <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+    <!-- Add your site or application content here -->
+    <!-- HEADER AND NAV -->
+
+    <header>
+      <div class="banner">
+        <h1>&lt;tim pfeiffer | web developer&gt;</h1>
+        <nav class="nav">
+          <input id="hamburger" type="checkbox" />
+          <label for="hamburger">&#9776;</label>
+
+          <ul class="nav-links">
+            <li><a href="index.html">home</a></li>
+            <li><a href="work/index.html">my work</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#contact">contact</a></li>
+          </ul>
         </nav>
+      </div>
+    </header>
 
-        <header>
-            <div class="full-width">
-                <div class="half-width">
-                    <h2>let's
-                        <span>code</span><br>something great</h2>
-                </div>
-            </div>
-        </header>
+    <section class="feature">
+      <div class="headline">
+        <h2>let's
+          <span>code</span><br>something great</h2>
+      </div>
+    </section>
 
 
-        <main>
+    <main>
 
-            
-            <!-- ABOUT SECTION -->
 
-            <section class="about">
+      <!-- ABOUT SECTION -->
 
-                <div id="about" class="full-width">
-                    <h3>about me</h3>
-                    <div class="half-width">
-                        <h4>I am passionate about the web</h4>
-                        <p>Hi! My name is Tim and I’m a Web Designer and Developer in Seattle, WA, USA. After working for many years as an Architect, I’m now a full time Web Developer.
-                        </p>
-                        <p>When I’m not punching keys and clicking my mouse, I spend my time on walks and at the park trying to wear out my Berne-Doodle dog Daisy. </p>
+      <section id="about">
+        <div class="about">
+          <h3>about me</h3>
+          <div class="about-me">
 
-                    </div>
-                    <div class="half-width">
-                        <h4>Here are some of my skills</h4>
-                        <ul>
-                            <li>HTML and CSS</li>
-                            <li>Photoshop</li>
-                            <li>Git and Github</li>
-                            <li>Ability to code a website from a psd</li>
-                            <li>Strong communication skills</li>
-                            <li>Reliable</li>
-                            <li>Punctuality and respect for deadlines</li>
-                        </ul>
-                        
-                    </div>
-                </div>
+            <h4>Who I am</h4>
+            <p>Hi! My name is Tim and I’m a Web Designer and Developer in Seattle, WA, USA. After working for many years as an Architect, I’m now a full time Web Developer.
+            </p>
+            <p>When I’m not punching keys and clicking my mouse, I spend my time on walks and at the park trying to wear out my Berne-Doodle dog Daisy. </p>
 
-            </section>
+          </div>
+          <div class="about-skills">
+            <h4>Some of my skills</h4>
+            <ul>
+              <li>HTML and CSS</li>
+              <li>Photoshop</li>
+              <li>Git and Github</li>
+              <li>Ability to code a website from a psd</li>
+              <li>Strong communication skills</li>
+              <li>Collaborate well with others</li>
+              <li>Punctuality and respect for deadlines</li>
+            </ul>
 
-        </main>
+          </div>
+        </div>
 
-        <footer id="contact" class="footer">
-            <div class="full-width">
-                <h3>let's connect</h3>
-                <div class="third-width">
-                    <h4>Hire me</h4>
-                    <p><a href="mailto:timpfeiffer.dev@gmail.com?subject=Code%20Something%20for%20Me!">timpfeiffer.dev@gmail.com</a></p>
-                </div>
-                <div class="third-width">
-                    <h4>Follow me</h4>
-                    <a href="https://github.com/jetcityweb" target="blank">
-                        <img src="img/github.png" alt="github"></a>
-                    <h5>Copyright 2020 | Tim Pfeiffer</h5>
-                </div>
-                <div class="third-width">
-                    <h4>Meet me</h4>
-                    <p>Seattle, WA</p>
-                    <p>Let's connect!</p>
-                </div>
+      </section>
 
-            </div>
+    </main>
 
-        </footer>
+    <footer id="contact">
+      <div class="footer">
+        <h3>let's connect</h3>
+        <div class="hire-me">
+          <h4>Hire me</h4>
+          <p><a href="mailto:timpfeiffer.dev@gmail.com?subject=Code%20Something%20for%20Me!">timpfeiffer.dev@gmail.com</a></p>
+        </div>
+        <div class="follow-me">
+          <h4>Follow me</h4>
+          <a href="https://github.com/jetcityweb" target="blank">
+            <i class="fab fa-github fa-3x"></i></a>
 
-    </body>
+        </div>
+
+
+        <div class="copyright">
+          <h5>Copyright 2020 | Tim Pfeiffer</h5>
+        </div>
+
+      </div>
+
+    </footer>
+
+
+
+
+    <script src="js/vendor/modernizr-3.8.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script>
+      window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')
+
+    </script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+      window.ga = function() {
+        ga.q.push(arguments)
+      };
+      ga.q = [];
+      ga.l = +new Date;
+      ga('create', 'UA-XXXXX-Y', 'auto');
+      ga('set', 'transport', 'beacon');
+      ga('send', 'pageview')
+
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+  </body>
 
 </html>
