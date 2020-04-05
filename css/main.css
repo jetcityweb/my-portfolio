@@ -171,7 +171,7 @@ header {
 
 }
 
-.banner h1 {
+.banner a {
   width: 100%;
   color: #6583E0;
 }
@@ -216,6 +216,8 @@ label[for="hamburger"] { /*Adjust the size of the hamburger*/
     text-decoration: none;
     padding-left: 0;
 }
+
+/* Feature section */
 
 .feature {
   display: flex;
@@ -323,6 +325,55 @@ label[for="hamburger"] { /*Adjust the size of the hamburger*/
   
 }
 
+/* Work page */
+
+.full-width {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.half-width {
+  display: flex;
+  flex-flow: row wrap;
+  margin-bottom: 2.5em;
+  justify-content: center;
+  width: 100%;
+  max-width: 550px;
+}
+
+.full-width h3 {
+  width: 100%;
+  color: #6583E0;
+  text-align: center;
+}
+
+.work h4 {
+  margin: 0.5em 0;
+  width: 100%
+}
+
+.work p {
+  width: 100%;
+  margin: 0.5em 0;
+}
+
+.work a {
+  width: 100%;
+  margin: 0;
+}
+
+.half-width img {
+  width: 100%;
+  height: auto;
+  max-height: 350px;
+  max-width: 550px;
+  border: 2px solid #b3afad;
+  margin-bottom: 1em;
+}
+
 /*==========================================================================
    Helper classes
    ========================================================================== */
@@ -414,6 +465,7 @@ label[for="hamburger"] { /*Adjust the size of the hamburger*/
   .feature .headline,
   .about-me,
   .about-skills,
+  .work,
   .footer {
     flex-flow: row wrap;
     margin: 0 3em;
@@ -548,6 +600,17 @@ label[for="hamburger"] { /*Adjust the size of the hamburger*/
     margin: 1em 3em;
   }
   
+  /* Work page */
+  
+  .full-width {
+    justify-content: space-between;
+  }
+  
+  .half-width {
+    width: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
   
 }
 
