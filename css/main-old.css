@@ -1,0 +1,265 @@
+    /* GRID */
+
+.full-width {
+    width   : 1400px;
+    margin  : auto;
+    overflow: auto;
+}
+
+.half-width {
+    width: 700px;
+    float: left;
+}
+
+.third-width {
+    width: 466.66px;
+    float: left;
+}
+
+    /* BASE STYLES */
+
+body {
+    background-color: #1f202b;
+    font-family     : 'Montserrat', sans-serif;
+    font-family     : 'Source Code Pro', monospace;
+    color           : #ffffff;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+h1 {
+    color       : #ffffff;
+    font-family : 'Montserrat', sans-serif;
+    font-size   : 30px;
+    font-weight : normal;
+    padding-left: 95px;
+    position    : absolute;
+    text-align  : left;
+}
+
+h2 {
+    color       : #ffffff;
+    font-family : 'Source Code Pro' , sans-serif;
+    font-weight : 400;
+    font-size   : 72px;
+    position    : absolute;
+    top         : 370px;
+    padding-left: 95px;
+}
+
+h3 {
+    color          : #6583E0;
+    font-family    : 'Source Code Pro', monospace;
+    font-size      : 36pt;
+    font-weight    : 400;
+    margin-bottom  : 0;
+    margin-top     : 55px;
+    padding        : 0;
+    position       : relative;
+    text-align     : center;
+    text-decoration: none;
+}
+
+h4 {
+    color        : #ffffff;
+    clear        : both;
+    font-family  : 'Montserrat', sans-serif;
+    font-size    : 24px;
+    font-weight  : 600;
+    margin-top   : 0;
+    margin-bottom: 10px;
+}
+
+h5 {
+    color       : #ffffff;
+    font-family : 'Montserrat', sans-serif;
+    font-size   : 18px;
+    font-weight : normal;
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+}
+
+p {
+    color        : #ffffff;
+    font-family  : 'Montserrat', sans-serif;
+    font-size    : 24px;
+    font-weight  : normal;
+    margin-top   : 10px;
+}
+
+    /* NAV SECTION*/
+
+nav {
+    background-color: #1f202b;
+    width           : 1400px;
+    height          : 75px;
+    margin          : auto;
+}
+
+nav ul {
+    padding-left: 120px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color       : #ffffff;
+    font-family : 'Montserrat', sans-serif;
+    font-size   : 30px;
+    padding-left: 45px;
+
+    /* LINK HOVER STATES */
+
+}
+
+.nav-links {
+    background-color: #1f202b;
+    float           : right;
+    text-align      : center;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #6583E0;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+
+
+    /* HEADER SECTION*/
+
+header {
+    height          : 800px;
+    width           : 1400px;
+    background-image: url("../img/hero-background.png");
+    background-size : cover;
+    margin          : auto;
+}
+
+h2 span {
+    color: #6583E0;
+}
+
+    /* WORK SECTION */
+
+.work .full-width {
+    margin-bottom: 110px;
+}
+
+.work img {
+    border: 1px;
+    border-style: solid;
+    border-color: #b7b7b7;
+    margin: 0 74px;
+    padding: 0;
+}
+
+.work h4 {
+    margin: 0 74px;
+}
+
+
+.work p {
+    margin: 15px 74px;
+}
+
+    /* ABOUT SECTION */
+
+.about .full-width {
+    clear           : both;
+    height          : 550px;
+    background-image: url("../img/about-me.png");
+    background-size : cover;
+    margin-bottom   : 100px;
+}
+
+.about h3 {
+    margin-top: 30px;
+}
+.about h4 {
+    margin-left: 74px;
+    color: #1f202b;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.about p {
+    padding-left: 74px;
+    padding-right: 74px;
+    color: #1f202b;
+}
+
+.about ul {
+    list-style: circle;
+    margin-left: 60px;
+}
+
+.about ul li {
+    color        : #1f202b;
+    font-family  : 'Montserrat', sans-serif;
+    font-size    : 24px;
+    font-weight  : normal;
+    margin-top   : 10px;
+}
+
+    /* FOOTER AND CONTACT SECTION */
+
+.footer .full-width {
+    background-color: #1f202b;
+    height          : 450px;
+    overflow        : hidden;
+    position: relative;
+}
+
+.footer h3 {
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.footer h4 {
+    text-align: center;
+    margin-bottom: 40px;
+
+} 
+
+.footer p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.footer a {
+  color: #ffffff;
+}
+
+.footer a:hover {
+    color: #6583E0;
+}
+
+
+.footer img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+    
+}
+
+.footer .footer-work {
+    background-color: #1f202b;
+    height          : 100px;
+    overflow        : hidden;
+    position: relative;
+}
+
